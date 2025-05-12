@@ -10,9 +10,7 @@ DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'stage_2_data')
 RESULTS_DIR = os.path.join(PROJECT_ROOT, 'result', 'stage_2_result')
 
 from stage_2_code.stage_2 import Dataset_Loader, Method_MLP, Evaluate_Metrics
-from stage_1_code.Result_Saver import Result_Saver
-from stage_1_code.Setting_KFold_CV import Setting_KFold_CV
-#from local_code.stage_1_code.Setting_Train_Test_Split import Setting_Train_Test_Split
+
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
