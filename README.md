@@ -7,6 +7,7 @@ This repository contains the code, scripts, and data for our ECS 189G Project.
 - **`code/`**: Contains source code files.
   - `stage_2_code/`: Code related to Stage 2 of the project.
   - `stage_3_code/`: Code related to Stage 3 of the project.
+  - `stage_4_code/`: Code related to Stage 4 of the project. (No running script this time since colab and .ipynb files were used)
 
 - **`script/`**: Contains executable scripts.
   - `stage_2_scripts/`: Scripts associated with Stage 2.
