@@ -87,7 +87,7 @@ for metric in metrics:
 plt.title('All Metrics (Train vs. Test) Over Epochs')
 plt.xlabel('Epochs')
 plt.ylabel('Score')
-plt.legend(loc='upper right', fontsize='small', ncol=2)  # adjust as needed
+plt.legend(loc='upper right', fontsize='small', ncol=2)  
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.savefig(os.path.join(RESULTS_DIR, 'pubmed_all_metrics_train_vs_test.png'))

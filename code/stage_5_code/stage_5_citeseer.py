@@ -66,7 +66,7 @@ class Method_GCN(method, nn.Module):
 
         self.hidden_dim = 64
         self.dropout_rate = 0.3
-        self.learning_rate = 0.005  # ↓ lower learning rate
+        self.learning_rate = 0.005  # lower learning rate
         self.weight_decay = 5e-3
         self.max_epoch = 250
         self.loss_function = nn.CrossEntropyLoss()
@@ -81,7 +81,7 @@ class Method_GCN(method, nn.Module):
             self.curves[metric] = []
             self.curves[f'test_{metric}'] = []
 
-        # Model architecture (3 GCN layers + BatchNorm)
+        # Model architecture changed (3 GCN layers + BatchNorm)
         self.gc1 = GCNLayer(3703, self.hidden_dim)
         self.bn1 = nn.BatchNorm1d(self.hidden_dim)
         self.gc2 = GCNLayer(self.hidden_dim, self.hidden_dim)
